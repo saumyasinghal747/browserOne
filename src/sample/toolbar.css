@@ -1,5 +1,6 @@
 .tool-bar{
     -fx-background-color: #1d3f5a;
+    -fx-border-color: #1d3f5a;
 }
 
 .tool-bar *.button{
@@ -8,5 +9,18 @@
 }
 
 .tool-bar *.text-field{
+    -fx-background-color: #bac6d0;
+}
+.tool-bar *SVGPath{
+    -fx-fill:  #bac6d0;
+}
+
+.tool-bar .button:hover SVGPath{
+    -fx-fill: #8eb2d0;
+
+}
+
+.tool-bar .button:hover{
+
     -fx-background-color: #445f75;
 }

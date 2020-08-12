@@ -2,6 +2,14 @@
 
 .tab-pane{
     -fx-background-color: #1c2c39;
+    
+}
+.tab-pane *SVGPath{
+    -fx-fill:  #bac6d0;
+}
+
+.tab-pane *SVGPath:hover{
+    -fx-fill:  #bac6d0;
 }
 
 
@@ -11,10 +19,12 @@
 }
 
 .tab-pane *.tab{
-    -fx-background-color: #1d3f5a;
+    -fx-background-color: #445f75;
     -fx-pref-width: 100.0;
     -fx-min-width: 50.0;
-    -fx-shape: "M300,290 L300,168 L421,168 L421,290 L300,290 z"
+    -fx-shape: "M300,290 L300,168 L421,168 L421,290 L300,290 z";
+
+
 }
 
 .tab-pane *.tab-label{
@@ -30,7 +40,7 @@
 }
 
 .tab-pane > .tab-header-area > .headers-region > .tab:selected {
-    -fx-background-color: #445f75
+    -fx-background-color: #1d3f5a;
 }
 
 
