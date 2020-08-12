@@ -1,0 +1,12 @@
+.tool-bar{
+    -fx-background-color: #1d3f5a;
+}
+
+.tool-bar *.button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #bac6d0;
+}
+
+.tool-bar *.text-field{
+    -fx-background-color: #445f75;
+}
